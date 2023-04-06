@@ -1,0 +1,41 @@
+title: Dan Revah Blog
+email: danrevah89@gmail.com
+description: >- 
+ Software Engineering, Cybersecurity, Reverse Engineering and Vulnerability Research
+baseurl: "" 
+url: "https://danrevah.github.io" 
+github_username:  danrevah
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# Pagination settings
+paginate: 5 # Posts per page
+paginate_path: "/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Outputting
+permalink: /:year/:month/:day/:title/
+timezone: "UTC"
+
+# Enable syntax highlighting with Rouge
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
