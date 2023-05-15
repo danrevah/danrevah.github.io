@@ -6,6 +6,7 @@ baseurl: ""
 url: "https://danrevah.github.io" 
 github_username:  danrevah
 linkedin_username: danrevah
+twitter_username: danrevah
 
 # Build settings
 markdown: kramdown
